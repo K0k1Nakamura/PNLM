@@ -2,3 +2,5 @@
 *.state
 *.pyc
 ./test/*
+*.txt
+

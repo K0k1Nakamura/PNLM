@@ -129,10 +129,10 @@ def evaluate(dataset, wordset):
         x = chainer.Variable(xp.asarray([dataset[i]]).astype(np.float32), volatile='on')
         result = evaluator(x).data[0]
 
-        inner = xp.dot(w2v.vectors, result)
+        inner = np.dot(w2v.vectors, chainer.cuda.to_cpu(result))
 
         result_cpu = chainer.cuda.to_cpu(inner)
-        idx_arr = result_cpu.argsort()
+        idx_arr = result_cpu.argsort()[::-1]
 
         idx = xp.where(w2v.vocab == wordset[i+1])
 
@@ -156,7 +156,7 @@ def evaluate(dataset, wordset):
 # Learning loop
 whole_len = len(train_data)
 jump = whole_len // batchsize
-cur_log_loss = 0
+cur_log_loss = 0.0
 epoch = 0
 start_at = time.time()
 cur_at = start_at
@@ -183,7 +183,7 @@ for i in six.moves.range(jump * n_epoch):
     if (i + 1) % 10000 == 0:
         now = time.time()
         throuput = 10000. / (now - cur_at)
-        print('iter {} training loss: {:.6f} ({:.2f} iters/sec)'.format(
+        print('iter {} training loss: {} ({:.2f} iters/sec)'.format(
             i + 1, cur_log_loss, throuput))
         cur_at = now
         cur_log_loss = 0
