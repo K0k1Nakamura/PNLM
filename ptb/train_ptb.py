@@ -21,8 +21,10 @@ from chainer import cuda
 import chainer.links as L
 from chainer import optimizers
 from chainer import serializers
+import chainer.functions as F
 
 import net
+import numpy as np
 
 
 parser = argparse.ArgumentParser()
@@ -42,7 +44,7 @@ parser.add_argument('--bproplen', '-l', type=int, default=35,
                     help='length of truncated BPTT')
 parser.add_argument('--gradclip', '-c', type=int, default=5,
                     help='gradient norm threshold to clip')
-parser.add_argument('--test', dest='test', action='store_true')
+parser.add_argument('--production', dest='test', action='store_false')
 parser.set_defaults(test=True)
 
 args = parser.parse_args()
@@ -113,13 +115,16 @@ def evaluate(dataset):
     evaluator.predictor.reset_state()  # initialize state
     evaluator.predictor.train = False  # dropout does nothing
 
-    sum_log_perp = 0
+    # sum_log_perp = 0
+    correct_num = 0
     for i in six.moves.range(dataset.size - 1):
-        x = chainer.Variable(xp.asarray(dataset[i:i + 1]), volatile='on')
-        t = chainer.Variable(xp.asarray(dataset[i + 1:i + 2]), volatile='on')
-        loss = evaluator(x, t)
-        sum_log_perp += loss.data
-    return math.exp(float(sum_log_perp) / (dataset.size - 1))
+        x = chainer.Variable(xp.asarray([dataset[i]]), volatile='on')
+        t = chainer.Variable(xp.asarray([dataset[i + 1]]), volatile='on')
+        result = F.softmax(evaluator.predictor(x))
+        if t.data[0] in result.data[0].argsort()[-100:]:
+            correct_num += 1
+
+    return correct_num / (dataset.size - 1)
 
 
 # Learning loop
