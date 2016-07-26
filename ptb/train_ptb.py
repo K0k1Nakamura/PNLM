@@ -123,8 +123,9 @@ def evaluate(dataset):
         result = F.softmax(evaluator.predictor(x)).data[0]
 
         result_cpu = chainer.cuda.to_cpu(result)
+        t_cpu = chainer.cuda.to_cpu(t.data)
 
-        if t.data[0] in result.argsort()[-100:]:
+        if t_cpu[0] in result_cpu.argsort()[-100:]:
             correct_num += 1
 
     return correct_num / (dataset.size - 1)
@@ -171,7 +172,7 @@ for i in six.moves.range(jump * n_epoch):
         print('evaluate')
         now = time.time()
         perp = evaluate(valid_data)
-        print('epoch {} validation perplexity: {:.2f}'.format(epoch, perp))
+        print('epoch {} validation correct rate: {:.2f}'.format(epoch, perp))
         cur_at += time.time() - now  # skip time of evaluation
 
         if epoch >= 6:
