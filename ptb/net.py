@@ -30,3 +30,29 @@ class RNNLM(chainer.Chain):
         y = self.l3(F.dropout(h2, train=self.train))
         return y
 
+class PNLM(chainer.Chain):
+
+    def __init__(self, n_in, n_units, train=True):
+        super(PNLM, self).__init__(
+            l1=L.Linear(n_in, n_units),
+            l2=L.LSTM(n_units, n_units),
+            l3=L.Linear(n_units, n_in),
+        )
+        self.train = train
+
+    def reset_state(self):
+        self.l2.reset_state()
+
+    def __call__(self, x):
+        h1 = self.l1(F.dropout(x, train=self.train))
+        h2 = self.l2(F.dropout(h1, train=self.train))
+        y = self.l3(F.dropout(h2, train=self.train))
+        return y
+
+
+if __name__ == '__main__':
+    filename = 'hoge'
+    words = open(filename).read().replace('\n', '<eos>').strip().split()
+    with open("new"+filename, 'w') as f:
+        for word in words:
+            f.write(word+" ")
