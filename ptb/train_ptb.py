@@ -128,7 +128,7 @@ def evaluate(dataset):
         if t_cpu[0] in result_cpu.argsort()[-100:]:
             correct_num += 1
 
-    return correct_num / (dataset.size - 1)
+    return float(correct_num) / (dataset.size - 1)
 
 
 # Learning loop
