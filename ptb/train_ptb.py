@@ -116,7 +116,10 @@ def evaluate(dataset):
     evaluator.predictor.train = False  # dropout does nothing
 
     # sum_log_perp = 0
-    correct_num = 0
+    correct100 = 0.0
+    correct10 = 0.0
+    correct5 = 0.0
+    correct1 = 0.0
     for i in six.moves.range(dataset.size - 1):
         x = chainer.Variable(xp.asarray([dataset[i]]), volatile='on')
         t = chainer.Variable(xp.asarray([dataset[i + 1]]), volatile='on')
@@ -124,11 +127,23 @@ def evaluate(dataset):
 
         result_cpu = chainer.cuda.to_cpu(result)
         t_cpu = chainer.cuda.to_cpu(t.data)
+        idx_arr = result_cpu.argsort()[::-1]
 
-        if t_cpu[0] in result_cpu.argsort()[-100:]:
-            correct_num += 1
+        if t_cpu[0] in idx_arr[:100]:
+            correct100 += 1
+        if t_cpu[0] in idx_arr[:10]:
+            correct10 += 1
+        if t_cpu[0] in idx_arr[:5]:
+            correct5 += 1
+        if t_cpu[0] in idx_arr[:1]:
+            correct1 += 1
 
-    return float(correct_num) / (dataset.size - 1)
+    correct100 /= dataset.size - 1
+    correct10 /= dataset.size - 1
+    correct5 /= dataset.size - 1
+    correct1 /= dataset.size - 1
+
+    return correct1, correct5, correct10, correct100
 
 
 # Learning loop
@@ -171,8 +186,11 @@ for i in six.moves.range(jump * n_epoch):
         epoch += 1
         print('evaluate')
         now = time.time()
-        perp = evaluate(valid_data)
-        print('epoch {} validation correct rate: {:.2f}'.format(epoch, perp))
+        cr1, cr5, cr10, cr100 = evaluate(valid_data)
+        print('epoch {} validation correct rate(100): {:.5f}'.format(epoch, cr100))
+        print('epoch {} validation correct rate(10): {:.5f}'.format(epoch, cr10))
+        print('epoch {} validation correct rate(5): {:.5f}'.format(epoch, cr5))
+        print('epoch {} validation correct rate(1): {:.5f}'.format(epoch, cr1))
         cur_at += time.time() - now  # skip time of evaluation
 
         if epoch >= 6:
@@ -184,7 +202,11 @@ for i in six.moves.range(jump * n_epoch):
 # Evaluate on test dataset
 print('test')
 test_perp = evaluate(test_data)
-print('test perplexity:', test_perp)
+cr1, cr5, cr10, cr100 = evaluate(valid_data)
+print('epoch {} test correct rate(100): {:.5f}'.format(epoch, cr100))
+print('epoch {} test correct rate(10): {:.5f}'.format(epoch, cr10))
+print('epoch {} test correct rate(5): {:.5f}'.format(epoch, cr5))
+print('epoch {} test correct rate(1): {:.5f}'.format(epoch, cr1))
 
 # Save the model and the optimizer
 print('save the model')
