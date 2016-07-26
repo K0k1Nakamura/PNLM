@@ -122,13 +122,10 @@ def evaluate(dataset):
         t = chainer.Variable(xp.asarray([dataset[i + 1]]), volatile='on')
         result = F.softmax(evaluator.predictor(x)).data[0]
 
-        for i in range(100):
-            idx = result.argmax()
-            if t.data[0] == idx:
-                correct_num += 1
-                break
-            else:
-                result[idx] = 0
+        result_cpu = chainer.cuda.to_cpu(result)
+
+        if t.data[0] in result.argsort()[-100:]:
+            correct_num += 1
 
     return correct_num / (dataset.size - 1)
 

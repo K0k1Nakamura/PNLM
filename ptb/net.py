@@ -19,7 +19,6 @@ class RNNLM(chainer.Chain):
         )
         self.train = train
 
-    e
     def reset_state(self):
         self.l1.reset_state()
         self.l2.reset_state()
