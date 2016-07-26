@@ -19,6 +19,7 @@ class RNNLM(chainer.Chain):
         )
         self.train = train
 
+    e
     def reset_state(self):
         self.l1.reset_state()
         self.l2.reset_state()
@@ -29,3 +30,17 @@ class RNNLM(chainer.Chain):
         h2 = self.l2(F.dropout(h1, train=self.train))
         y = self.l3(F.dropout(h2, train=self.train))
         return y
+
+class PNLM(chainer.Chain):
+    def __init__(self, n_in, n_units, train=True):
+        super(PNLM, self).__init__(
+            l1=L.LSTM(n_in, n_units),
+            l2=L.Linear(n_units, n_in),
+        )
+        self.train = train
+
+    def reset_state(self):
+        self.l1.reset_state()
+
+    def __call__(self, x):
+        h1 =

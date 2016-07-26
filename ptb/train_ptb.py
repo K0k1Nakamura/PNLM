@@ -120,9 +120,15 @@ def evaluate(dataset):
     for i in six.moves.range(dataset.size - 1):
         x = chainer.Variable(xp.asarray([dataset[i]]), volatile='on')
         t = chainer.Variable(xp.asarray([dataset[i + 1]]), volatile='on')
-        result = F.softmax(evaluator.predictor(x))
-        if t.data[0] in result.data[0].argsort()[-100:]:
-            correct_num += 1
+        result = F.softmax(evaluator.predictor(x)).data[0]
+
+        for i in range(100):
+            idx = result.argmax()
+            if t.data[0] == idx:
+                correct_num += 1
+                break
+            else:
+                result[idx] = 0
 
     return correct_num / (dataset.size - 1)
 
