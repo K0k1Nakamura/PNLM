@@ -134,7 +134,7 @@ def evaluate(dataset, wordset):
         result_cpu = chainer.cuda.to_cpu(inner)
         idx_arr = result_cpu.argsort()[::-1]
 
-        idx = xp.where(w2v.vocab == wordset[i+1])
+        idx = np.where(w2v.vocab == wordset[i+1])[0][0]
 
         if idx in idx_arr[:100]:
             correct100 += 1
