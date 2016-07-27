@@ -1,0 +1,278 @@
+#vocab = 10000
+going to train 1812681 iterations
+iter 10000 training perplexity: 1016.82 (150.86 iters/sec)
+iter 20000 training perplexity: 429.74 (152.03 iters/sec)
+iter 30000 training perplexity: 309.38 (151.90 iters/sec)
+iter 40000 training perplexity: 261.32 (151.92 iters/sec)
+evaluate
+epoch 1 validation correct rate(100): 0.67874
+epoch 1 validation correct rate(10): 0.44880
+epoch 1 validation correct rate(5): 0.36857
+epoch 1 validation correct rate(1): 0.17565
+iter 50000 training perplexity: 220.17 (151.75 iters/sec)
+iter 60000 training perplexity: 212.96 (151.93 iters/sec)
+iter 70000 training perplexity: 197.91 (151.73 iters/sec)
+iter 80000 training perplexity: 176.16 (152.93 iters/sec)
+iter 90000 training perplexity: 159.20 (152.68 iters/sec)
+evaluate
+epoch 2 validation correct rate(100): 0.71164
+epoch 2 validation correct rate(10): 0.48135
+epoch 2 validation correct rate(5): 0.39938
+epoch 2 validation correct rate(1): 0.20349
+iter 100000 training perplexity: 160.17 (153.58 iters/sec)
+iter 110000 training perplexity: 153.18 (154.17 iters/sec)
+iter 120000 training perplexity: 146.64 (153.66 iters/sec)
+iter 130000 training perplexity: 142.42 (153.61 iters/sec)
+evaluate
+epoch 3 validation correct rate(100): 0.72840
+epoch 3 validation correct rate(10): 0.50056
+epoch 3 validation correct rate(5): 0.42139
+epoch 3 validation correct rate(1): 0.23079
+iter 140000 training perplexity: 128.76 (153.65 iters/sec)
+iter 150000 training perplexity: 131.14 (154.15 iters/sec)
+iter 160000 training perplexity: 124.91 (153.42 iters/sec)
+iter 170000 training perplexity: 120.11 (153.33 iters/sec)
+iter 180000 training perplexity: 118.79 (153.60 iters/sec)
+evaluate
+epoch 4 validation correct rate(100): 0.74036
+epoch 4 validation correct rate(10): 0.51339
+epoch 4 validation correct rate(5): 0.43294
+epoch 4 validation correct rate(1): 0.24031
+iter 190000 training perplexity: 109.15 (153.05 iters/sec)
+iter 200000 training perplexity: 116.93 (153.36 iters/sec)
+iter 210000 training perplexity: 111.57 (153.19 iters/sec)
+iter 220000 training perplexity: 107.15 (153.41 iters/sec)
+iter 230000 training perplexity: 98.14 (153.13 iters/sec)
+evaluate
+epoch 5 validation correct rate(100): 0.75009
+epoch 5 validation correct rate(10): 0.52258
+epoch 5 validation correct rate(5): 0.44041
+epoch 5 validation correct rate(1): 0.24604
+iter 240000 training perplexity: 103.79 (153.58 iters/sec)
+iter 250000 training perplexity: 100.82 (153.84 iters/sec)
+iter 260000 training perplexity: 97.83 (153.30 iters/sec)
+iter 270000 training perplexity: 98.72 (153.25 iters/sec)
+evaluate
+epoch 6 validation correct rate(100): 0.75516
+epoch 6 validation correct rate(10): 0.52819
+epoch 6 validation correct rate(5): 0.44712
+epoch 6 validation correct rate(1): 0.25145
+learning rate = 0.833333333333
+iter 280000 training perplexity: 91.52 (153.19 iters/sec)
+iter 290000 training perplexity: 91.70 (153.88 iters/sec)
+iter 300000 training perplexity: 91.13 (153.32 iters/sec)
+iter 310000 training perplexity: 85.26 (153.15 iters/sec)
+iter 320000 training perplexity: 85.43 (153.51 iters/sec)
+evaluate
+epoch 7 validation correct rate(100): 0.75924
+epoch 7 validation correct rate(10): 0.53421
+epoch 7 validation correct rate(5): 0.45300
+epoch 7 validation correct rate(1): 0.25671
+learning rate = 0.694444444444
+iter 330000 training perplexity: 79.61 (153.37 iters/sec)
+iter 340000 training perplexity: 85.91 (153.43 iters/sec)
+iter 350000 training perplexity: 81.97 (153.25 iters/sec)
+iter 360000 training perplexity: 79.41 (153.50 iters/sec)
+iter 370000 training perplexity: 71.37 (153.20 iters/sec)
+evaluate
+epoch 8 validation correct rate(100): 0.76402
+epoch 8 validation correct rate(10): 0.53900
+epoch 8 validation correct rate(5): 0.45795
+epoch 8 validation correct rate(1): 0.26229
+learning rate = 0.578703703704
+iter 380000 training perplexity: 79.52 (153.52 iters/sec)
+iter 390000 training perplexity: 75.59 (153.71 iters/sec)
+iter 400000 training perplexity: 73.04 (153.14 iters/sec)
+iter 410000 training perplexity: 72.69 (153.30 iters/sec)
+evaluate
+epoch 9 validation correct rate(100): 0.76606
+epoch 9 validation correct rate(10): 0.54351
+epoch 9 validation correct rate(5): 0.46127
+epoch 9 validation correct rate(1): 0.26612
+learning rate = 0.48225308642
+iter 420000 training perplexity: 69.53 (153.25 iters/sec)
+iter 430000 training perplexity: 71.08 (153.91 iters/sec)
+iter 440000 training perplexity: 72.19 (153.35 iters/sec)
+iter 450000 training perplexity: 66.32 (153.30 iters/sec)
+iter 460000 training perplexity: 65.91 (153.45 iters/sec)
+evaluate
+epoch 10 validation correct rate(100): 0.76747
+epoch 10 validation correct rate(10): 0.54521
+epoch 10 validation correct rate(5): 0.46516
+epoch 10 validation correct rate(1): 0.26873
+learning rate = 0.401877572016
+iter 470000 training perplexity: 63.52 (153.36 iters/sec)
+iter 480000 training perplexity: 69.02 (153.51 iters/sec)
+iter 490000 training perplexity: 66.56 (153.20 iters/sec)
+iter 500000 training perplexity: 64.38 (151.94 iters/sec)
+iter 510000 training perplexity: 57.71 (153.33 iters/sec)
+evaluate
+epoch 11 validation correct rate(100): 0.76848
+epoch 11 validation correct rate(10): 0.54769
+epoch 11 validation correct rate(5): 0.46778
+epoch 11 validation correct rate(1): 0.26961
+learning rate = 0.33489797668
+iter 520000 training perplexity: 66.06 (153.57 iters/sec)
+iter 530000 training perplexity: 62.54 (153.61 iters/sec)
+iter 540000 training perplexity: 60.60 (153.22 iters/sec)
+iter 550000 training perplexity: 60.29 (153.21 iters/sec)
+evaluate
+epoch 12 validation correct rate(100): 0.76975
+epoch 12 validation correct rate(10): 0.54914
+epoch 12 validation correct rate(5): 0.46911
+epoch 12 validation correct rate(1): 0.27155
+learning rate = 0.279081647234
+iter 560000 training perplexity: 58.52 (153.30 iters/sec)
+iter 570000 training perplexity: 61.62 (153.93 iters/sec)
+iter 580000 training perplexity: 61.15 (153.25 iters/sec)
+iter 590000 training perplexity: 56.57 (153.33 iters/sec)
+iter 600000 training perplexity: 55.50 (153.52 iters/sec)
+evaluate
+epoch 13 validation correct rate(100): 0.77071
+epoch 13 validation correct rate(10): 0.55033
+epoch 13 validation correct rate(5): 0.46979
+epoch 13 validation correct rate(1): 0.27224
+learning rate = 0.232568039361
+iter 610000 training perplexity: 56.86 (153.43 iters/sec)
+iter 620000 training perplexity: 60.01 (153.49 iters/sec)
+iter 630000 training perplexity: 58.18 (153.34 iters/sec)
+iter 640000 training perplexity: 57.04 (153.53 iters/sec)
+iter 650000 training perplexity: 50.65 (153.35 iters/sec)
+evaluate
+epoch 14 validation correct rate(100): 0.77093
+epoch 14 validation correct rate(10): 0.55139
+epoch 14 validation correct rate(5): 0.47140
+epoch 14 validation correct rate(1): 0.27361
+learning rate = 0.193806699468
+iter 660000 training perplexity: 59.09 (153.45 iters/sec)
+iter 670000 training perplexity: 55.49 (153.71 iters/sec)
+iter 680000 training perplexity: 53.68 (153.35 iters/sec)
+iter 690000 training perplexity: 54.02 (153.26 iters/sec)
+evaluate
+epoch 15 validation correct rate(100): 0.77157
+epoch 15 validation correct rate(10): 0.55176
+epoch 15 validation correct rate(5): 0.47274
+epoch 15 validation correct rate(1): 0.27465
+learning rate = 0.16150558289
+iter 700000 training perplexity: 51.73 (153.28 iters/sec)
+iter 710000 training perplexity: 56.39 (153.90 iters/sec)
+iter 720000 training perplexity: 54.84 (153.24 iters/sec)
+iter 730000 training perplexity: 52.02 (153.15 iters/sec)
+iter 740000 training perplexity: 49.08 (153.50 iters/sec)
+evaluate
+epoch 16 validation correct rate(100): 0.77208
+epoch 16 validation correct rate(10): 0.55239
+epoch 16 validation correct rate(5): 0.47335
+epoch 16 validation correct rate(1): 0.27525
+learning rate = 0.134587985742
+iter 750000 training perplexity: 53.29 (153.42 iters/sec)
+iter 760000 training perplexity: 54.50 (153.47 iters/sec)
+iter 770000 training perplexity: 52.55 (153.24 iters/sec)
+iter 780000 training perplexity: 52.99 (153.45 iters/sec)
+iter 790000 training perplexity: 46.76 (153.26 iters/sec)
+evaluate
+epoch 17 validation correct rate(100): 0.77234
+epoch 17 validation correct rate(10): 0.55268
+epoch 17 validation correct rate(5): 0.47309
+epoch 17 validation correct rate(1): 0.27610
+learning rate = 0.112156654785
+iter 800000 training perplexity: 55.02 (153.58 iters/sec)
+iter 810000 training perplexity: 51.17 (153.56 iters/sec)
+iter 820000 training perplexity: 50.50 (153.30 iters/sec)
+iter 830000 training perplexity: 50.41 (153.23 iters/sec)
+evaluate
+epoch 18 validation correct rate(100): 0.77283
+epoch 18 validation correct rate(10): 0.55321
+epoch 18 validation correct rate(5): 0.47387
+epoch 18 validation correct rate(1): 0.27613
+learning rate = 0.0934638789872
+iter 840000 training perplexity: 47.72 (153.41 iters/sec)
+iter 850000 training perplexity: 53.59 (153.90 iters/sec)
+iter 860000 training perplexity: 52.05 (153.46 iters/sec)
+iter 870000 training perplexity: 49.36 (153.25 iters/sec)
+iter 880000 training perplexity: 46.01 (153.50 iters/sec)
+evaluate
+epoch 19 validation correct rate(100): 0.77284
+epoch 19 validation correct rate(10): 0.55384
+epoch 19 validation correct rate(5): 0.47423
+epoch 19 validation correct rate(1): 0.27686
+learning rate = 0.0778865658226
+iter 890000 training perplexity: 51.26 (153.53 iters/sec)
+iter 900000 training perplexity: 51.21 (153.45 iters/sec)
+iter 910000 training perplexity: 50.06 (153.21 iters/sec)
+iter 920000 training perplexity: 50.54 (153.44 iters/sec)
+evaluate
+epoch 20 validation correct rate(100): 0.77284
+epoch 20 validation correct rate(10): 0.55426
+epoch 20 validation correct rate(5): 0.47434
+epoch 20 validation correct rate(1): 0.27682
+learning rate = 0.0649054715189
+iter 930000 training perplexity: 45.20 (153.21 iters/sec)
+iter 940000 training perplexity: 52.02 (153.71 iters/sec)
+iter 950000 training perplexity: 48.92 (153.68 iters/sec)
+iter 960000 training perplexity: 48.45 (153.32 iters/sec)
+iter 970000 training perplexity: 47.86 (153.40 iters/sec)
+evaluate
+epoch 21 validation correct rate(100): 0.77321
+epoch 21 validation correct rate(10): 0.55407
+epoch 21 validation correct rate(5): 0.47442
+epoch 21 validation correct rate(1): 0.27715
+learning rate = 0.0540878929324
+iter 980000 training perplexity: 46.00 (153.48 iters/sec)
+iter 990000 training perplexity: 52.42 (153.89 iters/sec)
+iter 1000000 training perplexity: 49.14 (153.27 iters/sec)
+iter 1010000 training perplexity: 48.44 (153.20 iters/sec)
+iter 1020000 training perplexity: 43.95 (153.64 iters/sec)
+evaluate
+epoch 22 validation correct rate(100): 0.77309
+epoch 22 validation correct rate(10): 0.55452
+epoch 22 validation correct rate(5): 0.47490
+epoch 22 validation correct rate(1): 0.27739
+learning rate = 0.0450732441103
+iter 1030000 training perplexity: 50.41 (153.56 iters/sec)
+iter 1040000 training perplexity: 49.01 (153.39 iters/sec)
+iter 1050000 training perplexity: 47.82 (153.38 iters/sec)
+iter 1060000 training perplexity: 48.78 (153.45 iters/sec)
+evaluate
+epoch 23 validation correct rate(100): 0.77326
+epoch 23 validation correct rate(10): 0.55487
+epoch 23 validation correct rate(5): 0.47521
+epoch 23 validation correct rate(1): 0.27803
+learning rate = 0.0375610367586
+iter 1070000 training perplexity: 44.63 (153.30 iters/sec)
+iter 1080000 training perplexity: 49.80 (153.60 iters/sec)
+iter 1090000 training perplexity: 49.21 (153.68 iters/sec)
+iter 1100000 training perplexity: 46.29 (153.37 iters/sec)
+iter 1110000 training perplexity: 46.52 (153.37 iters/sec)
+evaluate
+epoch 24 validation correct rate(100): 0.77325
+epoch 24 validation correct rate(10): 0.55546
+epoch 24 validation correct rate(5): 0.47514
+epoch 24 validation correct rate(1): 0.27804
+learning rate = 0.0313008639655
+iter 1120000 training perplexity: 45.15 (153.48 iters/sec)
+iter 1130000 training perplexity: 51.08 (153.99 iters/sec)
+iter 1140000 training perplexity: 48.69 (153.31 iters/sec)
+iter 1150000 training perplexity: 47.51 (153.29 iters/sec)
+iter 1160000 training perplexity: 42.40 (153.47 iters/sec)
+evaluate
+epoch 25 validation correct rate(100): 0.77348
+epoch 25 validation correct rate(10): 0.55483
+epoch 25 validation correct rate(5): 0.47532
+epoch 25 validation correct rate(1): 0.27780
+learning rate = 0.0260840533046
+iter 1170000 training perplexity: 50.40 (153.48 iters/sec)
+iter 1180000 training perplexity: 48.56 (153.47 iters/sec)
+iter 1190000 training perplexity: 46.57 (153.29 iters/sec)
+iter 1200000 training perplexity: 47.05 (153.48 iters/sec)
+evaluate
+epoch 26 validation correct rate(100): 0.77365
+epoch 26 validation correct rate(10): 0.55517
+epoch 26 validation correct rate(5): 0.47526
+epoch 26 validation correct rate(1): 0.27804
+learning rate = 0.0217367110872
+iter 1210000 training perplexity: 44.66 (153.23 iters/sec)
+iter 1220000 training perplexity: 48.71 (153.64 iters/sec)
+iter 1230000 training perplexity: 49.13 (153.58 iters/sec)
+iter 1240000 training perplexity: 45.71 (153.22 iters/sec)
+iter 1250000 training perplexity: 45.26 (153.18 iters/sec)

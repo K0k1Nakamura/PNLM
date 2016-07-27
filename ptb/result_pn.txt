@@ -1,0 +1,320 @@
+going to train 1730664 iterations
+iter 10000 training loss: 214.442047119 (163.84 iters/sec)
+iter 20000 training loss: 77.6348342896 (156.75 iters/sec)
+iter 30000 training loss: 77.7493438721 (140.26 iters/sec)
+iter 40000 training loss: 77.5752029419 (140.35 iters/sec)
+evaluate
+epoch 1 validation correct rate(100): 0.00002
+epoch 1 validation correct rate(10): 0.00000
+epoch 1 validation correct rate(5): 0.00000
+epoch 1 validation correct rate(1): 0.00000
+iter 50000 training loss: 77.4135818481 (153.96 iters/sec)
+iter 60000 training loss: 76.9440765381 (147.58 iters/sec)
+iter 70000 training loss: 76.5274734497 (139.91 iters/sec)
+iter 80000 training loss: 76.3217773438 (139.88 iters/sec)
+evaluate
+epoch 2 validation correct rate(100): 0.00004
+epoch 2 validation correct rate(10): 0.00000
+epoch 2 validation correct rate(5): 0.00000
+epoch 2 validation correct rate(1): 0.00000
+iter 90000 training loss: 75.6641693115 (140.98 iters/sec)
+iter 100000 training loss: 75.8652648926 (151.80 iters/sec)
+iter 110000 training loss: 75.2747497559 (153.43 iters/sec)
+iter 120000 training loss: 75.3601455688 (141.54 iters/sec)
+iter 130000 training loss: 75.0651245117 (140.02 iters/sec)
+evaluate
+epoch 3 validation correct rate(100): 0.00005
+epoch 3 validation correct rate(10): 0.00000
+epoch 3 validation correct rate(5): 0.00000
+epoch 3 validation correct rate(1): 0.00000
+iter 140000 training loss: 75.0421829224 (152.05 iters/sec)
+iter 150000 training loss: 74.7705459595 (160.81 iters/sec)
+iter 160000 training loss: 74.7282714844 (142.35 iters/sec)
+iter 170000 training loss: 74.6911315918 (142.23 iters/sec)
+evaluate
+epoch 4 validation correct rate(100): 0.00010
+epoch 4 validation correct rate(10): 0.00000
+epoch 4 validation correct rate(5): 0.00000
+epoch 4 validation correct rate(1): 0.00000
+iter 180000 training loss: 74.5347137451 (147.64 iters/sec)
+iter 190000 training loss: 74.5665206909 (165.85 iters/sec)
+iter 200000 training loss: 74.1840438843 (146.78 iters/sec)
+iter 210000 training loss: 74.4786453247 (141.69 iters/sec)
+iter 220000 training loss: 74.1086730957 (141.91 iters/sec)
+evaluate
+epoch 5 validation correct rate(100): 0.00017
+epoch 5 validation correct rate(10): 0.00001
+epoch 5 validation correct rate(5): 0.00000
+epoch 5 validation correct rate(1): 0.00000
+iter 230000 training loss: 74.3133468628 (159.63 iters/sec)
+iter 240000 training loss: 73.9579544067 (156.96 iters/sec)
+iter 250000 training loss: 74.037689209 (143.56 iters/sec)
+iter 260000 training loss: 74.070892334 (141.54 iters/sec)
+evaluate
+epoch 6 validation correct rate(100): 0.00022
+epoch 6 validation correct rate(10): 0.00005
+epoch 6 validation correct rate(5): 0.00001
+epoch 6 validation correct rate(1): 0.00000
+learning rate = 0.833333333333
+iter 270000 training loss: 73.8368682861 (135.87 iters/sec)
+iter 280000 training loss: 73.9440307617 (134.93 iters/sec)
+iter 290000 training loss: 73.644859314 (143.11 iters/sec)
+iter 300000 training loss: 73.8765945435 (141.73 iters/sec)
+iter 310000 training loss: 73.4971923828 (141.83 iters/sec)
+evaluate
+epoch 7 validation correct rate(100): 0.00023
+epoch 7 validation correct rate(10): 0.00009
+epoch 7 validation correct rate(5): 0.00006
+epoch 7 validation correct rate(1): 0.00003
+learning rate = 0.694444444444
+iter 320000 training loss: 73.8406524658 (150.95 iters/sec)
+iter 330000 training loss: 73.270980835 (151.27 iters/sec)
+iter 340000 training loss: 73.5699996948 (141.90 iters/sec)
+iter 350000 training loss: 73.4575119019 (144.21 iters/sec)
+evaluate
+epoch 8 validation correct rate(100): 0.00025
+epoch 8 validation correct rate(10): 0.00011
+epoch 8 validation correct rate(5): 0.00009
+epoch 8 validation correct rate(1): 0.00006
+learning rate = 0.578703703704
+iter 360000 training loss: 73.2847137451 (154.84 iters/sec)
+iter 370000 training loss: 73.2439041138 (163.24 iters/sec)
+iter 380000 training loss: 73.1606750488 (140.94 iters/sec)
+iter 390000 training loss: 73.2362594604 (141.26 iters/sec)
+evaluate
+epoch 9 validation correct rate(100): 0.00025
+epoch 9 validation correct rate(10): 0.00013
+epoch 9 validation correct rate(5): 0.00011
+epoch 9 validation correct rate(1): 0.00008
+learning rate = 0.48225308642
+iter 400000 training loss: 72.8815841675 (141.25 iters/sec)
+iter 410000 training loss: 73.1525802612 (172.38 iters/sec)
+iter 420000 training loss: 72.7024765015 (147.43 iters/sec)
+iter 430000 training loss: 72.944480896 (142.24 iters/sec)
+iter 440000 training loss: 72.721534729 (141.82 iters/sec)
+evaluate
+epoch 10 validation correct rate(100): 0.00025
+epoch 10 validation correct rate(10): 0.00013
+epoch 10 validation correct rate(5): 0.00011
+epoch 10 validation correct rate(1): 0.00009
+learning rate = 0.401877572016
+iter 450000 training loss: 72.7633895874 (148.26 iters/sec)
+iter 460000 training loss: 72.626953125 (155.13 iters/sec)
+iter 470000 training loss: 72.6274032593 (146.23 iters/sec)
+iter 480000 training loss: 72.7774963379 (145.96 iters/sec)
+evaluate
+epoch 11 validation correct rate(100): 0.00027
+epoch 11 validation correct rate(10): 0.00015
+epoch 11 validation correct rate(5): 0.00013
+epoch 11 validation correct rate(1): 0.00010
+learning rate = 0.33489797668
+iter 490000 training loss: 72.3601608276 (145.04 iters/sec)
+iter 500000 training loss: 72.5968017578 (157.37 iters/sec)
+iter 510000 training loss: 72.368057251 (143.51 iters/sec)
+iter 520000 training loss: 72.5682983398 (140.35 iters/sec)
+iter 530000 training loss: 72.2626037598 (140.65 iters/sec)
+evaluate
+epoch 12 validation correct rate(100): 0.00028
+epoch 12 validation correct rate(10): 0.00016
+epoch 12 validation correct rate(5): 0.00014
+epoch 12 validation correct rate(1): 0.00011
+learning rate = 0.279081647234
+iter 540000 training loss: 72.4730377197 (133.81 iters/sec)
+iter 550000 training loss: 72.2077941895 (142.86 iters/sec)
+iter 560000 training loss: 72.3176040649 (140.01 iters/sec)
+iter 570000 training loss: 72.3974685669 (140.32 iters/sec)
+evaluate
+epoch 13 validation correct rate(100): 0.00029
+epoch 13 validation correct rate(10): 0.00016
+epoch 13 validation correct rate(5): 0.00014
+epoch 13 validation correct rate(1): 0.00011
+learning rate = 0.232568039361
+iter 580000 training loss: 72.1865463257 (144.40 iters/sec)
+iter 590000 training loss: 72.3569259644 (150.42 iters/sec)
+iter 600000 training loss: 72.0830383301 (141.29 iters/sec)
+iter 610000 training loss: 72.3777160645 (140.62 iters/sec)
+iter 620000 training loss: 71.9556427002 (140.27 iters/sec)
+evaluate
+epoch 14 validation correct rate(100): 0.00029
+epoch 14 validation correct rate(10): 0.00016
+epoch 14 validation correct rate(5): 0.00014
+epoch 14 validation correct rate(1): 0.00012
+learning rate = 0.193806699468
+iter 630000 training loss: 72.3400726318 (167.66 iters/sec)
+iter 640000 training loss: 71.929145813 (161.60 iters/sec)
+iter 650000 training loss: 72.1655502319 (141.12 iters/sec)
+iter 660000 training loss: 72.2070999146 (141.09 iters/sec)
+evaluate
+epoch 15 validation correct rate(100): 0.00030
+epoch 15 validation correct rate(10): 0.00016
+epoch 15 validation correct rate(5): 0.00014
+epoch 15 validation correct rate(1): 0.00012
+learning rate = 0.16150558289
+iter 670000 training loss: 72.0017852783 (151.77 iters/sec)
+iter 680000 training loss: 72.117515564 (156.17 iters/sec)
+iter 690000 training loss: 71.9961166382 (140.46 iters/sec)
+iter 700000 training loss: 72.2041778564 (140.48 iters/sec)
+iter 710000 training loss: 71.8201141357 (140.57 iters/sec)
+evaluate
+epoch 16 validation correct rate(100): 0.00030
+epoch 16 validation correct rate(10): 0.00016
+epoch 16 validation correct rate(5): 0.00014
+epoch 16 validation correct rate(1): 0.00012
+learning rate = 0.134587985742
+iter 720000 training loss: 72.2075500488 (164.25 iters/sec)
+iter 730000 training loss: 71.7467956543 (143.01 iters/sec)
+iter 740000 training loss: 72.1219787598 (141.32 iters/sec)
+iter 750000 training loss: 72.0074615479 (140.81 iters/sec)
+evaluate
+epoch 17 validation correct rate(100): 0.00031
+epoch 17 validation correct rate(10): 0.00017
+epoch 17 validation correct rate(5): 0.00015
+epoch 17 validation correct rate(1): 0.00012
+learning rate = 0.112156654785
+iter 760000 training loss: 71.8789749146 (152.11 iters/sec)
+iter 770000 training loss: 71.9201431274 (165.71 iters/sec)
+iter 780000 training loss: 71.9267654419 (146.44 iters/sec)
+iter 790000 training loss: 72.1603240967 (144.46 iters/sec)
+evaluate
+epoch 18 validation correct rate(100): 0.00031
+epoch 18 validation correct rate(10): 0.00017
+epoch 18 validation correct rate(5): 0.00015
+epoch 18 validation correct rate(1): 0.00012
+learning rate = 0.0934638789872
+iter 800000 training loss: 71.6937713623 (143.43 iters/sec)
+iter 810000 training loss: 72.0735244751 (136.87 iters/sec)
+iter 820000 training loss: 71.806892395 (142.66 iters/sec)
+iter 830000 training loss: 71.9761047363 (140.71 iters/sec)
+iter 840000 training loss: 71.7904205322 (140.67 iters/sec)
+evaluate
+epoch 19 validation correct rate(100): 0.00031
+epoch 19 validation correct rate(10): 0.00017
+epoch 19 validation correct rate(5): 0.00015
+epoch 19 validation correct rate(1): 0.00012
+learning rate = 0.0778865658226
+iter 850000 training loss: 71.9543304443 (153.20 iters/sec)
+iter 860000 training loss: 71.7919006348 (155.29 iters/sec)
+iter 870000 training loss: 71.8794250488 (147.25 iters/sec)
+iter 880000 training loss: 71.9889831543 (146.27 iters/sec)
+evaluate
+epoch 20 validation correct rate(100): 0.00031
+epoch 20 validation correct rate(10): 0.00017
+epoch 20 validation correct rate(5): 0.00015
+epoch 20 validation correct rate(1): 0.00013
+learning rate = 0.0649054715189
+iter 890000 training loss: 71.8257141113 (141.97 iters/sec)
+iter 900000 training loss: 71.8943252563 (164.39 iters/sec)
+iter 910000 training loss: 71.6901168823 (146.77 iters/sec)
+iter 920000 training loss: 72.0439834595 (140.50 iters/sec)
+iter 930000 training loss: 71.6597900391 (140.30 iters/sec)
+evaluate
+epoch 21 validation correct rate(100): 0.00031
+epoch 21 validation correct rate(10): 0.00017
+epoch 21 validation correct rate(5): 0.00015
+epoch 21 validation correct rate(1): 0.00013
+learning rate = 0.0540878929324
+iter 940000 training loss: 71.9646682739 (143.92 iters/sec)
+iter 950000 training loss: 71.708190918 (145.72 iters/sec)
+iter 960000 training loss: 71.8012313843 (142.98 iters/sec)
+iter 970000 training loss: 71.9674301147 (140.58 iters/sec)
+evaluate
+epoch 22 validation correct rate(100): 0.00031
+epoch 22 validation correct rate(10): 0.00017
+epoch 22 validation correct rate(5): 0.00015
+epoch 22 validation correct rate(1): 0.00012
+learning rate = 0.0450732441103
+iter 980000 training loss: 71.6887588501 (146.52 iters/sec)
+iter 990000 training loss: 71.9343414307 (165.02 iters/sec)
+iter 1000000 training loss: 71.7108688354 (145.82 iters/sec)
+iter 1010000 training loss: 71.9948272705 (149.96 iters/sec)
+iter 1020000 training loss: 71.5865325928 (144.50 iters/sec)
+evaluate
+epoch 23 validation correct rate(100): 0.00031
+epoch 23 validation correct rate(10): 0.00017
+epoch 23 validation correct rate(5): 0.00015
+epoch 23 validation correct rate(1): 0.00013
+learning rate = 0.0375610367586
+iter 1030000 training loss: 72.0050430298 (129.62 iters/sec)
+iter 1040000 training loss: 71.5420608521 (138.67 iters/sec)
+iter 1050000 training loss: 71.8963012695 (140.53 iters/sec)
+iter 1060000 training loss: 71.8625183105 (140.52 iters/sec)
+evaluate
+epoch 24 validation correct rate(100): 0.00031
+epoch 24 validation correct rate(10): 0.00017
+epoch 24 validation correct rate(5): 0.00015
+epoch 24 validation correct rate(1): 0.00013
+learning rate = 0.0313008639655
+iter 1070000 training loss: 71.7297058105 (150.90 iters/sec)
+iter 1080000 training loss: 71.7802810669 (158.54 iters/sec)
+iter 1090000 training loss: 71.7903518677 (141.95 iters/sec)
+iter 1100000 training loss: 71.9555892944 (141.39 iters/sec)
+evaluate
+epoch 25 validation correct rate(100): 0.00031
+epoch 25 validation correct rate(10): 0.00018
+epoch 25 validation correct rate(5): 0.00016
+epoch 25 validation correct rate(1): 0.00013
+learning rate = 0.0260840533046
+iter 1110000 training loss: 71.5939941406 (142.99 iters/sec)
+iter 1120000 training loss: 71.9483184814 (159.42 iters/sec)
+iter 1130000 training loss: 71.5857543945 (143.24 iters/sec)
+iter 1140000 training loss: 71.8876037598 (147.39 iters/sec)
+iter 1150000 training loss: 71.7076416016 (141.79 iters/sec)
+evaluate
+epoch 26 validation correct rate(100): 0.00031
+epoch 26 validation correct rate(10): 0.00018
+epoch 26 validation correct rate(5): 0.00016
+epoch 26 validation correct rate(1): 0.00013
+learning rate = 0.0217367110872
+iter 1160000 training loss: 71.7571411133 (145.97 iters/sec)
+iter 1170000 training loss: 71.7288894653 (147.26 iters/sec)
+iter 1180000 training loss: 71.7944869995 (140.63 iters/sec)
+iter 1190000 training loss: 71.9386291504 (140.51 iters/sec)
+evaluate
+epoch 27 validation correct rate(100): 0.00031
+epoch 27 validation correct rate(10): 0.00017
+epoch 27 validation correct rate(5): 0.00016
+epoch 27 validation correct rate(1): 0.00013
+learning rate = 0.018113925906
+iter 1200000 training loss: 71.5970993042 (145.85 iters/sec)
+iter 1210000 training loss: 71.8589935303 (158.72 iters/sec)
+iter 1220000 training loss: 71.6544036865 (146.05 iters/sec)
+iter 1230000 training loss: 71.9199142456 (145.55 iters/sec)
+iter 1240000 training loss: 71.5838394165 (141.28 iters/sec)
+evaluate
+epoch 28 validation correct rate(100): 0.00031
+epoch 28 validation correct rate(10): 0.00017
+epoch 28 validation correct rate(5): 0.00015
+epoch 28 validation correct rate(1): 0.00013
+learning rate = 0.015094938255
+iter 1250000 training loss: 71.8630599976 (150.88 iters/sec)
+iter 1260000 training loss: 71.6618881226 (151.66 iters/sec)
+iter 1270000 training loss: 71.7080688477 (144.16 iters/sec)
+iter 1280000 training loss: 71.9002914429 (145.41 iters/sec)
+evaluate
+epoch 29 validation correct rate(100): 0.00032
+epoch 29 validation correct rate(10): 0.00018
+epoch 29 validation correct rate(5): 0.00016
+epoch 29 validation correct rate(1): 0.00013
+learning rate = 0.0125791152125
+iter 1290000 training loss: 71.6869049072 (137.64 iters/sec)
+iter 1300000 training loss: 71.850479126 (143.94 iters/sec)
+iter 1310000 training loss: 71.6429367065 (140.48 iters/sec)
+iter 1320000 training loss: 71.9368286133 (140.06 iters/sec)
+iter 1330000 training loss: 71.5666885376 (140.20 iters/sec)
+evaluate
+epoch 30 validation correct rate(100): 0.00031
+epoch 30 validation correct rate(10): 0.00018
+epoch 30 validation correct rate(5): 0.00016
+epoch 30 validation correct rate(1): 0.00013
+learning rate = 0.0104825960104
+iter 1340000 training loss: 71.9374008179 (156.99 iters/sec)
+iter 1350000 training loss: 71.5553588867 (141.20 iters/sec)
+iter 1360000 training loss: 71.8301315308 (139.77 iters/sec)
+iter 1370000 training loss: 71.8375167847 (139.82 iters/sec)
+evaluate
+epoch 31 validation correct rate(100): 0.00032
+epoch 31 validation correct rate(10): 0.00018
+epoch 31 validation correct rate(5): 0.00016
+epoch 31 validation correct rate(1): 0.00013
+learning rate = 0.00873549667533
+iter 1380000 training loss: 71.6352539062 (151.24 iters/sec)
