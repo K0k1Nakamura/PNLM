@@ -301,3 +301,4 @@ epoch 32 validation correct rate(100): 0.00175
 epoch 32 validation correct rate(10): 0.00133
 epoch 32 validation correct rate(5): 0.00125
 epoch 32 validation correct rate(1): 0.00105
+iter 1430000 training loss: 58.4884986877 (172.79 iters/sec)

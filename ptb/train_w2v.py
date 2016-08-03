@@ -101,7 +101,8 @@ if args.gpu >= 0:
     model.to_gpu()
 
 # Setup optimizer
-optimizer = optimizers.SGD(lr=1.)
+# optimizer = optimizers.SGD(lr=1.)
+optimizer = optimizers.Adam()
 optimizer.setup(model)
 optimizer.add_hook(chainer.optimizer.GradientClipping(grad_clip))
 
@@ -199,9 +200,9 @@ for i in six.moves.range(jump * n_epoch):
         print('epoch {} validation correct rate(1): {:.5f}'.format(epoch, cr1))
         cur_at += time.time() - now  # skip time of evaluation
 
-        if epoch >= 6:
-            optimizer.lr /= 1.2
-            print('learning rate =', optimizer.lr)
+        # if epoch >= 6:
+        #     optimizer.lr /= 1.2
+        #     print('learning rate =', optimizer.lr)
 
     sys.stdout.flush()
 

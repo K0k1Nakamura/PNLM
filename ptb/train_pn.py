@@ -191,7 +191,7 @@ for i in six.moves.range(jump * n_epoch):
     if (i + 1) % 10000 == 0:
         now = time.time()
         throuput = 10000. / (now - cur_at)
-        print('iter {} training loss: {:.6f} ({:.2f} iters/sec)'.format(
+        print('iter {} training loss: {} ({:.2f} iters/sec)'.format(
             i + 1, cur_log_loss, throuput))
         cur_at = now
         cur_log_loss = 0
